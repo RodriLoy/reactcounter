@@ -5,15 +5,17 @@ export const ContainerCounter = styled.div`
   flex-direction: column;
 `;
 
-export const Display = styled.div`
+export const Display = styled.p`
   font-weight: bold;
   font-size: 40px;
+  align-self: center;
 `;
 
 export const Number = styled.div`
   display: flex;
   justify-content: center;
   padding: 10px;
+
 `;
 
 export const ContainerButtons = styled.div`
