@@ -24,7 +24,7 @@ function Counter({ number }) {
 
   return (
     <ContainerCounter>
-      <Display>{count}</Display>
+      <Display data-testid="count">{count}</Display>
       <Number>
         Number:&nbsp;
         <input type="number" name="name" min="0" ref={inputRef} />
